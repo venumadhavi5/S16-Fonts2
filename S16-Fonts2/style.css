@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Ramabhadra&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Padyakke+Expanded+One&family=Ramabhadra&family=Sevillana&display=swap');
+@font-face{
+    font-family:nandakam ;
+    src: url(./fonts/Nandakam\ Regular.otf);
+}
+@font-face {
+    font-family: nudi;
+    src: url(./fonts/Nudi\ 17\ e\ Regular.ttf);
+}
+@font-face {
+    font-family: angelina;
+    src: url(./fonts/Angelina-rnlA.otf);
+}
+@font-face {
+    font-family: alankaram;
+    src: url(./fonts/Alankaram\ Plain.otf);
+}
+
+
+body{
+    background-color: pink;
+}
+
+#h1{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    color: brown;
+    display: inline-block;
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 20px;
+}
+#paraEnglish{
+    font-size: 2rem;
+    font-family:"Sevillana", cursive ;
+    font-style: italic;
+    color: blue;
+    text-shadow: 10px 10px 10px white;
+
+}
+#paraTelugu{
+    font-size: 2rem;
+    font-family:"Ramabhadra", sans-serif ;
+    font-weight: 300;
+    color: rgb(238, 0, 255);
+    text-shadow: 10px 10px 10px white;
+}
+#paraTamil{
+    font-size:2rem ;
+    font-family: "Kavivanar", cursive;
+    font-weight: 200;
+    color: rgb(0, 255, 8);
+    text-shadow: 10px 10px 10px white;
+
+}
+#paraKannada{
+    font-size: 2rem;
+    font-family:"Padyakke Expanded One", fantasy;
+    font-weight: 400;
+    color: rgb(255, 55, 0);
+    text-shadow: 10px 10px 10px white;
+}
+#paraTelugu2{
+    font-family: nandakam;
+    font-size: 2rem;
+}
+#paraKannada2{
+    font-family: nudi;
+    font-size: 2rem;
+}
+#paraEnglish2{
+    font-family: angelina;
+    font-size: 2rem;
+    
+}
+#paraTamil2{
+    font-family: alankaram;
+    font-size: 2rem;
+
+}
